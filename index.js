@@ -6,7 +6,8 @@ function setup() {
 }
 
 function startPage() {
-    background(0, 110, 30);
+    draw = function() {
+        background(0, 110, 30);
     fill(150, 27, 31);
     textSize(40);
     text("Wich animagus are you?", 550, 40);
@@ -28,6 +29,8 @@ function startPage() {
         questionOne();
         console.log("question");
     }
+    }
+  
     
 }
 
