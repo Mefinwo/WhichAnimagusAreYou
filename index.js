@@ -26,8 +26,8 @@ function startPage() {
     text("START", 613, 285);
 
     if(mouseIsPressed && mouseX > 570 && mouseY > 350 && mouseX < 770 && mouseY < 330){
-        questionOne();
         console.log("question");
+        questionOne();
     }
     }
   
