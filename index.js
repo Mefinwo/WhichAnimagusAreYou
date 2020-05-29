@@ -35,7 +35,10 @@ function startPage() {
 }
 
 function questionOne() {
-    background(0, 110, 30);
+    draw = function(){
+        background(0, 110, 30);
+    } 
+    
     
 }
 
