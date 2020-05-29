@@ -25,7 +25,7 @@ function startPage() {
     textSize(35);
     text("START", 613, 285);
 
-    if(mouseIsPressed && mouseX > 570 && mouseY > 350 && mouseX < 770 && mouseY < 330){
+    if(mouseIsPressed && mouseX > 570 && mouseY > 250 && mouseX < 770 && mouseY < 330){
         console.log("question");
         questionOne();
     }
