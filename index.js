@@ -26,7 +26,6 @@ function startPage() {
     text("START", 613, 285);
 
     if(mouseIsPressed && mouseX > 570 && mouseY > 250 && mouseX < 770 && mouseY < 330){
-        console.log("question");
         questionOne();
     }
     }
@@ -37,6 +36,8 @@ function startPage() {
 function questionOne() {
     draw = function(){
         background(0, 110, 30);
+        fill(255,255,255);
+        rect()
     } 
     
     
