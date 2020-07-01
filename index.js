@@ -35,6 +35,7 @@ function startPage() {
 
 function questionOne() {
     draw = function(){
+        fill(0, 0, 0);
         textSize(20);
         text("Are you afraid of heights?", 500, 150);
         background(0, 110, 30);
