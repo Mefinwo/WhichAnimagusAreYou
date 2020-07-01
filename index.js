@@ -1,7 +1,7 @@
 
 
 function setup() {
-    createCanvas(1550, 750);
+    createCanvas(1550, 720);
     startPage();
 }
 
@@ -37,7 +37,7 @@ function questionOne() {
     draw = function(){
         background(0, 110, 30);
         fill(255,255,255);
-        rect()
+        rect(650, 300, )
     } 
     
     
