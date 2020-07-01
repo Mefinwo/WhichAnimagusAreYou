@@ -1,7 +1,7 @@
 
 
 function setup() {
-    createCanvas(1550, 720);
+    createCanvas(1580, 730);
     startPage();
 }
 
