@@ -37,7 +37,7 @@ function questionOne() {
     draw = function(){
         background(0, 110, 30);
         fill(255,255,255);
-        rect(650, 300, )
+        rect(650, 300, 500, 250);
     } 
     
     
