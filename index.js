@@ -44,6 +44,7 @@ function questionOne() {
         fill(0, 0, 0);
         textSize(20);
         text("ENG: Are you afraid of heights?", 470, 220);
+        text("DE: Hast du Höhenangst?", 470, 240);
     } 
     
     
