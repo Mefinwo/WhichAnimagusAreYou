@@ -42,7 +42,7 @@ function questionOne() {
         fill(255,255,255);
         rect(450, 200, 500, 250);
         fill(0, 0, 0);
-        textSize(10);
+        textSize(20);
         text("ENG: Are you afraid of heights?", 470, 220);
     } 
     
