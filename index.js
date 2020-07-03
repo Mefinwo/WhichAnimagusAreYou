@@ -61,7 +61,7 @@ function questionOne() {
         //NO
         fill(0,0,0);
         textSize(40);
-        text("NO", 830, 520);
+        text("NO", 835, 520);
     } 
 }
 
