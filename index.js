@@ -51,8 +51,6 @@ function questionOne() {
         fill(255,0,0);
         rect(800, 470, 150, 80);
     } 
-    
-    
 }
 
 
