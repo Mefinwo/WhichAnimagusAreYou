@@ -62,7 +62,7 @@ function questionOne() {
         textSize(40);
         text("NO", 835, 520);
         if(mouseIsPressed && mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
-
+            questionThree();
         }
     } 
 }
