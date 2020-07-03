@@ -55,7 +55,7 @@ function questionOne() {
 
         fill(0,0,0);
         textSize(40);
-        text("YES", 470, 520);
+        text("YES", 480, 520);
     } 
 }
 
