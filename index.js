@@ -53,6 +53,40 @@ function questionOne() {
         textSize(40);
         text("YES", 480, 520);
         if(mouseIsPressed && mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
+            questionTwo();
+        }
+        //NO
+        fill(255,0,0);
+        rect(800, 470, 150, 80);
+        fill(0,0,0);
+        textSize(40);
+        text("NO", 835, 520);
+        if(mouseIsPressed && mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
+
+        }
+    } 
+}
+
+function questionTwo() {
+    draw = function() {
+        background(0, 110, 30);
+        fill(0, 0, 0);
+        textSize(50);
+        text("Question two", 500, 150);
+        fill(255,255,255);
+        rect(450, 200, 500, 250);
+        fill(0, 0, 0);
+        textSize(20);
+        text("ENG: How tall are you?", 470, 220);
+        text("DE: Wie groß bist du??", 470, 240);
+
+        //YES
+        fill(0, 255, 0);
+        rect(450, 470, 150, 80);
+        fill(0,0,0);
+        textSize(40);
+        text("YES", 480, 520);
+        if(mouseIsPressed && mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
 
         }
         //NO
@@ -62,25 +96,7 @@ function questionOne() {
         textSize(40);
         text("NO", 835, 520);
         if(mouseIsPressed && mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
-            
+
         }
-    } 
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
