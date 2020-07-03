@@ -87,7 +87,7 @@ function questionTwo() {
         textSize(40);
         text("<1,50", 480, 520);
         if(mouseIsPressed && mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
-
+            questionFour();
         }
         //smaller than 1,50
         fill(255,0,0);
@@ -132,5 +132,20 @@ function questionThree() {
         if(mouseIsPressed && mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
 
         }
+    }
+}
+
+function questionFour() {
+    draw = function() {
+        background(0, 110, 30);
+        fill(0, 0, 0);
+        textSize(50);
+        text("Question three", 500, 150);
+        fill(255,255,255);
+        rect(450, 200, 500, 250);
+        fill(0, 0, 0);
+        textSize(20);
+        text("ENG: ", 470, 220);
+        text("DE: ", 470, 240);
     }
 }
