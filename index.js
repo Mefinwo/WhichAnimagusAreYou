@@ -1,5 +1,4 @@
 
-
 function setup() {
     createCanvas(1580, 745);
     startPage();
@@ -46,10 +45,17 @@ function questionOne() {
         textSize(20);
         text("ENG: Are you afraid of heights?", 470, 220);
         text("DE: Hast du Höhenangst?", 470, 240);
+
+        //YES
         fill(0, 255, 0);
         rect(450, 470, 150, 80);
+        //NO
         fill(255,0,0);
         rect(800, 470, 150, 80);
+
+        fill(0,0,0);
+        textSize(40);
+        text("YES", 490, 490);
     } 
 }
 
