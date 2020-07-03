@@ -48,6 +48,8 @@ function questionOne() {
         text("DE: Hast du Höhenangst?", 470, 240);
         fill(0, 255, 0);
         rect(450, 470, 150, 80);
+        fill(255,0,0);
+        rect(800, 470, 150, 80);
     } 
     
     
