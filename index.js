@@ -16,6 +16,7 @@ function startPage() {
     text("©GameProgrammers gmbh2020", 10, 13);
     fill(255, 0, 0);
     textSize(20);
+
     text("Did you ever think about the thing with the animagus?", 450, 120);
     text("No? Thats no problem. Here you can find out wich animagus you are!", 450, 150);
     text("Press START to start.", 450, 180);
@@ -45,6 +46,8 @@ function questionOne() {
         textSize(20);
         text("ENG: Are you afraid of heights?", 470, 220);
         text("DE: Hast du Höhenangst?", 470, 240);
+        fill(0, 255, 0);
+        rect(450, 500, 150, 50);
     } 
     
     
