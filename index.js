@@ -80,21 +80,21 @@ function questionTwo() {
         text("ENG: How tall are you?", 470, 220);
         text("DE: Wie groß bist du??", 470, 240);
 
-        //YES
+        //higher than 1,50
         fill(0, 255, 0);
         rect(450, 470, 150, 80);
         fill(0,0,0);
         textSize(40);
-        text("YES", 480, 520);
+        text("<1,50", 480, 520);
         if(mouseIsPressed && mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
 
         }
-        //NO
+        //smaller than 1,50
         fill(255,0,0);
         rect(800, 470, 150, 80);
         fill(0,0,0);
         textSize(40);
-        text("NO", 835, 520);
+        text(">1,50", 835, 520);
         if(mouseIsPressed && mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
 
         }
