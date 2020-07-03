@@ -16,7 +16,7 @@ function startPage() {
     fill(255, 0, 0);
     textSize(20);
 
-    text("Did you ever think about the thing with the animagus?", 450, 120);
+    text("Have you ever thought about the thing with the animagus?", 450, 120);
     text("No? Thats no problem. Here you can find out wich animagus you are!", 450, 150);
     text("Press START to start.", 450, 180);
     fill(0, 255, 0);
@@ -111,24 +111,24 @@ function questionThree() {
         rect(450, 200, 500, 250);
         fill(0, 0, 0);
         textSize(20);
-        text("ENG: What skin color do you have?", 470, 220);
-        text("DE: Welche Hautfarbe hast du?", 470, 240);
+        text("ENG: What do like best? Dark or light? ", 470, 220);
+        text("DE: Was magst du lieber? Dunkel oder hell?", 470, 240);
 
-        //black
+        //dark
         fill(0, 255, 0);
         rect(450, 470, 150, 80);
         fill(0,0,0);
         textSize(40);
-        text("black", 480, 520);
+        text("dark", 480, 520);
         if(mouseIsPressed && mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
 
         }
-        //white
+        //light
         fill(255,0,0);
         rect(800, 470, 150, 80);
         fill(0,0,0);
         textSize(40);
-        text("white", 835, 520);
+        text("light", 835, 520);
         if(mouseIsPressed && mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
 
         }
