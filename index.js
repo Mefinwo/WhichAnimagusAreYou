@@ -52,8 +52,10 @@ function questionOne() {
         fill(0,0,0);
         textSize(40);
         text("YES", 480, 520);
-        if(mouseIsPressed && mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
-            questionTwo();
+        function mouseClicked() {
+            if(mouseIsPressed && mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
+                questionTwo();
+            }
         }
         //NO
         fill(255,0,0);
@@ -61,8 +63,10 @@ function questionOne() {
         fill(0,0,0);
         textSize(40);
         text("NO", 835, 520);
-        if(mouseIsPressed && mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
-            questionThree();
+        function mouseClicked() {
+            if(mouseIsPressed && mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
+                questionThree();
+            }
         }
     } 
 }
@@ -86,17 +90,21 @@ function questionTwo() {
         fill(0,0,0);
         textSize(40);
         text("<1,50", 480, 520);
-        if(mouseIsPressed && mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
-            questionFour();
-        }
+        function mouseClicked() {
+            if(mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
+                questionFour();
+            }
+        }   
         //smaller than 1,50
         fill(255,0,0);
         rect(800, 470, 150, 80);
         fill(0,0,0);
         textSize(40);
         text(">1,50", 835, 520);
-        if(mouseIsPressed && mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
+        function mouseClicked() {
+            if(mouseIsPressed && mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
 
+            }
         }
     }
 }
@@ -120,8 +128,10 @@ function questionThree() {
         fill(0,0,0);
         textSize(40);
         text("dark", 480, 520);
-        if(mouseIsPressed && mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
+        function mouseClicked() {
+            if(mouseIsPressed && mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
 
+            }
         }
         //light
         fill(255,0,0);
@@ -129,8 +139,10 @@ function questionThree() {
         fill(0,0,0);
         textSize(40);
         text("light", 835, 520);
-        if(mouseIsPressed && mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
+        function mouseClicked() {
+            if(mouseIsPressed && mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
 
+            }
         }
     }
 }
