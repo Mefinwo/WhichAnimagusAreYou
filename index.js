@@ -53,7 +53,7 @@ function questionOne() {
         textSize(40);
         text("YES", 480, 520);
         function mouseClicked() {
-            if(mouseIsPressed && mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
+            if(mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
                 questionTwo();
             }
         }
@@ -64,7 +64,7 @@ function questionOne() {
         textSize(40);
         text("NO", 835, 520);
         function mouseClicked() {
-            if(mouseIsPressed && mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
+            if(mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
                 questionThree();
             }
         }
