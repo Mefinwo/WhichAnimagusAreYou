@@ -52,13 +52,7 @@ function questionOne() {
         fill(0,0,0);
         textSize(40);
         text("YES", 480, 520);
-        function mouseClicked() {
-            if(mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
-                questionTwo();
-            } else {
-                questionOne();
-            }
-        }
+        
         //NO
         fill(255,0,0);
         rect(800, 470, 150, 80);
@@ -70,7 +64,14 @@ function questionOne() {
                 questionThree();
             }
         }
-    } 
+    }
+    function mouseClicked() {
+        if(mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
+            questionTwo();
+        } else {
+            questionOne();
+        }
+    }
 }
 
 function questionTwo() {
