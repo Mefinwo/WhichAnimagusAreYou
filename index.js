@@ -55,6 +55,8 @@ function questionOne() {
         function mouseClicked() {
             if(mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
                 questionTwo();
+            } else {
+                questionOne();
             }
         }
         //NO
