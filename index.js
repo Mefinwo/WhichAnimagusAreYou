@@ -59,17 +59,19 @@ function questionOne() {
         fill(0,0,0);
         textSize(40);
         text("NO", 835, 520);
-        }
-    }
+        
 
-    function mouseClicked([event]) {
-        if(mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
-            questionTwo();
-        } 
-    function mouseClicked([event]) {
-        if(mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
-            questionThree();
-        }
+        
+            if(mouseIsPressed && mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
+                if(!mouseIsPressed && mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
+                    questionTwo();
+                }
+            } 
+       
+            if(mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
+                questionThree();
+            }
+        
     }
 }
 
