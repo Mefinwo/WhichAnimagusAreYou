@@ -59,20 +59,20 @@ function questionOne() {
         fill(0,0,0);
         textSize(40);
         text("NO", 835, 520);
-        function mouseClicked() {
-            if(mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
-                questionThree();
-            }
         }
     }
-    function mouseClicked() {
+
+    function mouseClicked([event]) {
         if(mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
             questionTwo();
-        } else {
-            questionOne();
+        } 
+    function mouseClicked([event]) {
+        if(mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
+            questionThree();
         }
     }
 }
+
 
 function questionTwo() {
     draw = function() {
