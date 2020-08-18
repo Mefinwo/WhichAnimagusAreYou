@@ -62,16 +62,16 @@ function questionOne() {
         }
     }
 
-    function mouseClicked([event]) {
+    mouseClicked = function() {
         if(mouseX > 450 && mouseX < 600 && mouseY > 470 && mouseY < 550) {
             questionTwo();
-        } 
-    function mouseClicked([event]) {
-        if(mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
+        } else if(mouseX > 800 && mouseX < 950 && mouseY > 470 && mouseY < 550) {
             questionThree();
         }
     }
-}
+
+    
+    
 
 
 function questionTwo() {
