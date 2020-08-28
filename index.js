@@ -53,6 +53,7 @@ function questionOne() {
         textSize(40);
         text("YES", 480, 520);
         
+        
         //NO
         fill(255,0,0);
         rect(800, 470, 150, 80);
